@@ -6,7 +6,7 @@ export interface Recipe {
   steps: string[];
   author: string;
 }
-const { recipe }: { recipe: Recipe } = Astro.props;
+const { recipe } = Astro.props as { recipe: Recipe };
 ---
 
 
