@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "Paella",
+        "ingredients": [
+            "Arroz", "Pollo", "Mariscos", "Pimientos"
+        ],
+        "steps": [
+            "Cocinar el arroz", "Agregar el pollo", "Agregar los mariscos", "Agregar los pimientos"
+        ],
+        "author": "Mama"
+    },
+    {
+        "id": 2,
+        "name": "Albondigas", 
+        "ingredients": [
+            "Carne molida", "Pan molido", "Huevo", "Cebolla", "Ajo"
+        ],
+        "steps": [
+            "Mezclar la carne molida con el pan molido", "Agregar el huevo", "Agregar la cebolla y el ajo", "Formar las albondigas"
+        ],
+        "author": "Mama"
+    }
+]
