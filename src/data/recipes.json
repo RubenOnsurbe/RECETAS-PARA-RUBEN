@@ -1,23 +1,46 @@
 [
     {
         "id": 1,
-        "name": "Paella",
+        "name": "Tortos con picadillo y huevo",
         "ingredients": [
-            "Arroz", "Pollo", "Mariscos", "Pimientos"
+            "300 g de picadillo de chorizo fresco",
+            "4 huevos",
+            "Aceite de oliva virgen extra",
+            "Sal",
+            "Perejil",
+            "300 g de harina de maíz + 15 g para estirar",
+            "100 g de harina de trigo",
+            "300 ml de agua templada"
         ],
         "steps": [
-            "Cocinar el arroz", "Agregar el pollo", "Agregar los mariscos", "Agregar los pimientos"
+            "1: Prepara la masa de maíz y dale forma de tortos, pon las harina de maíz y de trigo en un bol. Sazona el agua y viértela, poco a poco, al bol. Amasa hasta conseguir una masa homogénea (parecida a la plastilina) que no se pegue a las manos. Forma una bola, ponla en un bol, cúbrela con film de cocina y deja que repose durante 1 hora. Espolvorea la masa con un poco de harina de maíz, divídela en 4 y forma 4 bolitas. Coloca cada bolita entre 2 trozos de papel de horno, aplástalas un poco presionándolas con las manos, y estíralas con un rodillo hasta formar unos discos (deben quedar bastante finos).",
+            "2: Fríe los tortos, calienta abundante aceite en una sartén, introduce un torto y fríelo por los 2 lados. Retira y escúrrelo sobre una fuente. Fríe el resto de los tortos de la misma manera. ",
+            "3: Fríe el picadillo de chorizo y los huevos, retira casi todo el aceite de la sartén (deja 2 cucharadas), agrega el picadillo de chorizo y fríelo hasta que se dore. Calienta una sartén pequeña con bastante aceite (del sobrante de freír los tortos). Casca un huevo, añádelo y fríelo. Repite el proceso con el resto de los huevos.",
+            "4: Sirve los tortos de maíz con picadillo y huevos, sirve un torto en cada plato y reparte encima el picadillo y los huevos, sazónalos y decora los platos con unas hojas de perejil. Consejos para hacer tortos de maíz Si haces los tortos muy grandes, te resultará difícil manipularlos. Así que si no te arreglas, en vez de hacer 4, haz 8 y sirve 2 por ración. Para freír los tortos de maíz y que queden crujientes utilizo una sartén con abundante aceite de oliva caliente y voy friéndolos uno a uno, con una espumadera voy echando aceite caliente encima de la masa, para dorarla por ambos lados. Para acompañar, aquí os propongo huevos fritos y el tradicional picadillo de chorizo fresco bien salteado para que quede un poco crujiente y después de freír lo desgraso poniéndolo sobre un colador para que suelte el exceso de aceite. Pero puedes utilizar otros ingredientes como morcilla o verduras y si quieres en dulce, te propongo un queso suave y miel."
         ],
         "author": "Mama"
     },
     {
         "id": 2,
-        "name": "Albondigas", 
+        "name": "Ensaladilla Ibérica",
         "ingredients": [
-            "Carne molida", "Pan molido", "Huevo", "Cebolla", "Ajo"
+            "3 patatas",
+            "3 zanahorias",
+            "3 Huevos",
+            "4 lonchas de queso havarti",
+            "150 g de fuet",
+            "4 lonchas finas de cecina",
+            "4 lonchas finas de jamón ibérico",
+            "8 lonchas finas de lomo ibérico",
+            "150 g de mayonesa",
+            "Sal",
+            "Picos de pan",
+            "Perejil"
         ],
         "steps": [
-            "Mezclar la carne molida con el pan molido", "Agregar el huevo", "Agregar la cebolla y el ajo", "Formar las albondigas"
+            "1: Cuece las hortalizas y los huevos, cuece de víspera las patatas con piel (30-35 minutos), las zanahorias peladas (20 minutos) y los huevos (10 minutos). Cuando se templen introdúcelos en el frigorífico y resérvalos para el día siguiente.",
+            "2: Ralla los ingredientes, añade el queso, el fuet y la mahonesa, pela las patatas y los huevos, y rállalos (con la parte más ancha del rallador) a un bol. Ralla también las zanahorias. Corta las lonchas de queso en daditos y añádelo. Retira la piel del fuet, córtalo en cuartos de luna finos e incorpóralo. Agrega la mahonesa y una pizca de sal, y mezcla bien.",
+            "3: Sirve la ensaladilla decorada con cecina, jamón y lomo, coloca un aro (tipo cortapastas) en un plato, llénalo con la mezcla y retíralo. Monta otros 3 platos de la misma manera. Decora cada plato con 1 loncha de cecina, 1 de jamón y 2 de lomo. Pincha las ensaladillas con unos picos y decóralas con unas hojas de perejil. Consejos para hacer ensaladilla ibérica. Para ligar los ingredientes he utilizado mahonesa, pero puedes probar cualquier otro tipo de salsa como salsa rosa, salsa yogur, salsa de tomate o un aderezo elaborado con aceite, vinagre y mostaza. Aquí te propongo servir la ensaladilla ibérica fría como entrante emplatada con un aro cortapastas pero también puedes presentarla sobre unas tostas de pan. Si te sobra ensaladilla puedes aprovecharla como relleno de tartaletas, sándwiches y para preparar otros aperitivos como unas endivias rellena, unos pimientos rellenos o unos rollitos de salmón."
         ],
         "author": "Mama"
     }

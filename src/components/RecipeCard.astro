@@ -9,29 +9,40 @@ export interface Recipe {
 const { recipe } = Astro.props as { recipe: Recipe };
 ---
 
-
-
-<div class=" max-w-xl bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-700 dark:border-gray-700 m-2">
-        <img class="rounded-t-lg"  src=`/img/${recipe.id}.jpg` alt={recipe.name}/>
-    <div class="p-5">
-            <h5 class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white">{recipe.name}</h5>
-            <hr class="my-3 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
-        <h2 class="text-white font-semibold text-lg">Ingredientes:</h2>
-        <ul class="text-gray-700 dark:text-gray-400">
-            {recipe.ingredients.map(ingredient => (
-              <li class="text-sm">{ingredient}</li>
-            ))}
-        </ul> 
-        <hr class="my-3 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
-        <h2 class="text-white font-semibold text-lg">Preparacion:</h2>
-        <ul class="text-gray-700 dark:text-gray-400">
-          {recipe.steps.map(step => (
+<div
+  class="max-w-xl bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-700 dark:border-gray-700 m-2"
+>
+  <img class="rounded-t-lg" src=`/img/${recipe.id}.webp` alt={recipe.name} />
+  <div class="p-5">
+    <h5
+      class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white"
+    >
+      {recipe.name}
+    </h5>
+    <hr class="my-3 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
+    <h2 class="text-white font-semibold text-lg">Ingredientes:</h2>
+    <ul class="text-gray-700 dark:text-gray-400">
+      {
+        recipe.ingredients.map((ingredient) => (
+          <li class="text-sm">{ingredient}</li>
+        ))
+      }
+    </ul>
+    <hr class="my-3 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
+    <h2 class="text-white font-semibold text-lg">Preparacion:</h2>
+    <ul class="text-gray-700 dark:text-gray-400">
+      {
+        recipe.steps.map((step) => (
+          <>
             <li class="text-sm">{step}</li>
-          ))}
-        </ul>
-        <hr class="my-3 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
-        <p class="text-white font-semibold text-base">
-            Receta de {recipe.author}
-          </p>
-    </div>
+            <br />
+          </>
+        ))
+      }
+    </ul>
+    <hr class="my-3 h-0.5 border-t-0 bg-neutral-100 dark:bg-white/10" />
+    <p class="text-white font-semibold text-base">
+      Receta de {recipe.author}
+    </p>
+  </div>
 </div>
