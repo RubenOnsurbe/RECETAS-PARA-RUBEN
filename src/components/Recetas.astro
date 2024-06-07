@@ -1,11 +1,17 @@
 ---
-import recipes from '../data/recipes.json';
-import RecipeCard from './RecipeCard.astro';
+import recipes from "../data/recipes.json";
+import RecipeCard from "./RecipeCard.astro";
+---
 
---- 
-<h2 class="text-white text-xl text-center py-2">Recetas de la familia para que Ruben aprenda a cocinar.</h2>
-<div class="flex flex-col items-center justify-center">
-    {recipes.map(recipe => (
-      <RecipeCard recipe={recipe} key={recipe.id} />
-    ))}
-  </div>
+<h2 class="text-white text-xl text-center py-4">
+  Recetas de la familia para que Ruben aprenda a cocinar.
+</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
+  {recipes.map((recipe) => <RecipeCard recipe={recipe} key={recipe.id} />)}
+</div>
+
+<style>
+  .grid {
+    display: grid;
+  }
+</style>
